@@ -1,0 +1,25 @@
+# ==========================================================================
+# Segredos e credenciais — NUNCA versionar
+# ==========================================================================
+Credenciais de Acesso/
+credenciais/
+.env
+.env.local
+*.env
+*.secret
+*.pem
+*.key
+
+# Exceção: manter o modelo de variáveis
+!.env.example
+
+# ==========================================================================
+# Sistema operacional / editores
+# ==========================================================================
+Thumbs.db
+desktop.ini
+.DS_Store
+*.tmp
+*~
+.vscode/
+.idea/
